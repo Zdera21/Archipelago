@@ -371,7 +371,7 @@ moon_chests: Dict[str, LegendOfDragoonLocationData] = {
     "TMTNS - Chest in Save Room After Virage": LegendOfDragoonLocationData("Moon That Never Sets", 108_40251, "Chest"),
 }
 
-chests_table: Dict[str, LegendOfDragoonLocationData] = {
+all_chests_table: Dict[str, LegendOfDragoonLocationData] = {
     **seles_chests,
     **forest_chests,
     **hellena_01_chests,
